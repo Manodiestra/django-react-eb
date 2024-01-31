@@ -1,0 +1,15 @@
+# Requirements files (NOT requirements.txt as this is needed by EB)
+requirements.in
+
+# React bits not required
+react_app/src
+react_app/static
+
+# Django folders not required
+**/migrations
+
+# Additional dev-only folders
+__pycache__
+
+# Other files not to include
+*.sqlite3
